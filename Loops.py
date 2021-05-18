@@ -46,8 +46,9 @@ html_str = "<ul>\n"  # "\ n" is the character that marks the end of the line, it
 
 # write your code here
 for item in items:
-    html_str += "<li>" + item + "</li>\n"
+    html_str += "<li>{}</li>\n".format(item)
 
 html_str += "</ul>"
 
 print(html_str)
+

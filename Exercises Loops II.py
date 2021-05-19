@@ -9,7 +9,7 @@ for key, value in nominated.items():
     for name in value:
         nom_count_dict[name] = nom_count_dict.get(name, 0) + 1
 
-print(nom_count_dict)
+#print(nom_count_dict)
 
 ###################################################################################################################
 ###################################################################################################################
@@ -18,5 +18,10 @@ print(nom_count_dict)
 win_count_dict = {}
 # Add your solution code below before line 20. Add more lines for your code as needed.
 
+for key, value in winners.items():
+    for name in value:
+        win_count_dict[name] = win_count_dict.get(name, 0) + 1
 
 
+
+print(win_count_dict)
